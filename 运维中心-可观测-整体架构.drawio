@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7vA6uKXF7rg5VbFHULAT-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="910" width="690" height="220" as="geometry" />
+        </mxCell>
         <mxCell id="7vA6uKXF7rg5VbFHULAT-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="770" width="530" height="110" as="geometry" />
         </mxCell>
@@ -72,8 +75,21 @@
         <mxCell id="7vA6uKXF7rg5VbFHULAT-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7vA6uKXF7rg5VbFHULAT-18" target="7vA6uKXF7rg5VbFHULAT-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7vA6uKXF7rg5VbFHULAT-52" value="pull" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7vA6uKXF7rg5VbFHULAT-26">
+          <mxGeometry x="-0.0286" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7vA6uKXF7rg5VbFHULAT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7vA6uKXF7rg5VbFHULAT-18" target="7vA6uKXF7rg5VbFHULAT-25">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7vA6uKXF7rg5VbFHULAT-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7vA6uKXF7rg5VbFHULAT-18" target="7vA6uKXF7rg5VbFHULAT-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7vA6uKXF7rg5VbFHULAT-51" value="pull" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7vA6uKXF7rg5VbFHULAT-46">
+          <mxGeometry x="-0.6486" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7vA6uKXF7rg5VbFHULAT-18" value="vmagent(二开)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="800" width="120" height="60" as="geometry" />
@@ -124,6 +140,18 @@
         </mxCell>
         <mxCell id="7vA6uKXF7rg5VbFHULAT-44" value="指标采集层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="770" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7vA6uKXF7rg5VbFHULAT-45" value="istio-proxy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7vA6uKXF7rg5VbFHULAT-47" value="kindling-promethus-exporter(ebpf-based)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7vA6uKXF7rg5VbFHULAT-48" value="天幕/酷狗RPC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7vA6uKXF7rg5VbFHULAT-50" value="promethus-exporter" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1020" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
