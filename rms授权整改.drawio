@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="第 1 页" id="Wec1dz7UP3ePFHjkOBPh">
-    <mxGraphModel>
+    <mxGraphModel dx="1042" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pIf7GbkgjXQ6lJh8gveo-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pIf7GbkgjXQ6lJh8gveo-1" target="pIf7GbkgjXQ6lJh8gveo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pIf7GbkgjXQ6lJh8gveo-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pIf7GbkgjXQ6lJh8gveo-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pIf7GbkgjXQ6lJh8gveo-2" target="pIf7GbkgjXQ6lJh8gveo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pIf7GbkgjXQ6lJh8gveo-6" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pIf7GbkgjXQ6lJh8gveo-5">
+          <mxGeometry x="-0.025" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pIf7GbkgjXQ6lJh8gveo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pIf7GbkgjXQ6lJh8gveo-2" target="pIf7GbkgjXQ6lJh8gveo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pIf7GbkgjXQ6lJh8gveo-2" value="判断POD的label是否有project-id" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="230" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pIf7GbkgjXQ6lJh8gveo-4" value="根据rms_id授权" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pIf7GbkgjXQ6lJh8gveo-7" value="按老的根据三级业务树授权" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pIf7GbkgjXQ6lJh8gveo-9" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="630" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pIf7GbkgjXQ6lJh8gveo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pIf7GbkgjXQ6lJh8gveo-4" target="pIf7GbkgjXQ6lJh8gveo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pIf7GbkgjXQ6lJh8gveo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pIf7GbkgjXQ6lJh8gveo-7" target="pIf7GbkgjXQ6lJh8gveo-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
