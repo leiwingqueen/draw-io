@@ -63,7 +63,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RF478VplAfsEbwWnG10n-5" value="flink" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RF478VplAfsEbwWnG10n-5" value="flink" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="620" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RF478VplAfsEbwWnG10n-6" value="kafka" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -148,6 +148,21 @@
         </mxCell>
         <mxCell id="RF478VplAfsEbwWnG10n-52" value="中心集群" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RF478VplAfsEbwWnG10n-54" value="relabel定制开发" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="530" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RF478VplAfsEbwWnG10n-55" value="serverid处理插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="340" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RF478VplAfsEbwWnG10n-56" value="doveconnector" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="305" y="100" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RF478VplAfsEbwWnG10n-57" value="自定义聚合规则" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="150" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RF478VplAfsEbwWnG10n-58" value="标红：二开或者需要定制化开发" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="50" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
