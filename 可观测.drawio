@@ -44,8 +44,11 @@
         <mxCell id="RF478VplAfsEbwWnG10n-3" value="envoy" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="180" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="BmdBHVU4wIOGd8Pzasn--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RF478VplAfsEbwWnG10n-5" target="RF478VplAfsEbwWnG10n-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RF478VplAfsEbwWnG10n-5" value="vmagent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="695" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RF478VplAfsEbwWnG10n-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RF478VplAfsEbwWnG10n-11" target="RF478VplAfsEbwWnG10n-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -155,6 +158,9 @@
           <mxGeometry x="-0.3481" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BmdBHVU4wIOGd8Pzasn--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BmdBHVU4wIOGd8Pzasn--1" target="RF478VplAfsEbwWnG10n-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BmdBHVU4wIOGd8Pzasn--1" value="配置中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="-80" width="120" height="60" as="geometry" />
