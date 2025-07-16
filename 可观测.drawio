@@ -162,8 +162,16 @@
         <mxCell id="BmdBHVU4wIOGd8Pzasn--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BmdBHVU4wIOGd8Pzasn--1" target="RF478VplAfsEbwWnG10n-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="BmdBHVU4wIOGd8Pzasn--12" value="配置下发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BmdBHVU4wIOGd8Pzasn--10">
+          <mxGeometry x="0.35" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BmdBHVU4wIOGd8Pzasn--1" value="配置中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="-80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BmdBHVU4wIOGd8Pzasn--13" value="流式聚合" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="755" y="150" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
